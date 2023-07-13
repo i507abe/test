@@ -7,8 +7,11 @@ int main(void)
   printf("n = ");
   scanf("%d", &n);
 
-  if( n & 1 == 0 ){
+  if( n % 2 == 0 ){
     printf("%d は偶数です\n", n);
+  }else{
+    printf("%dは奇数です\n");
   }
+  
   return 0;
 }
